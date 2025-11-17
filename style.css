@@ -1,0 +1,13 @@
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.nav-buttons a {
+    padding: 12px 18 px;
+    background: #4c6ef5;
+    color: fff;
+    text-decoration: none;
+}
