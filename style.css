@@ -10,4 +10,7 @@
     background: #4c6ef5;
     color: fff;
     text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    transition: background 0.2s;
 }
