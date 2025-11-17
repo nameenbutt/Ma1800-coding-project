@@ -1,2 +1,15 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #43b823;
+    color: #333;
+}
 
+header {
+    background: linear-gradient(135deg, #43b823, #fff);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
 
