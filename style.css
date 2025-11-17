@@ -31,5 +31,14 @@ header h1 {
     transition: 0.3s;
 }
 
+.big-button:hover { 
+    background: #4a90e2;
+    color: white;
+    transform: translateY(-5px);
+    border-color: #4a90e2;
+}
+
+
+
 
 
