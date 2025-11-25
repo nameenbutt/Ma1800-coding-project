@@ -3,101 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Faith & Fire – Digital Journey Through War and Religion in Pakistan</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
+    <title>Faith & Fire - Digital Journey Through War And Religion In Pakistan</title>
+    <link rel="stylesheet" href="style.css"/>
 
+    <style>
+        /*Navigation*/
+        nav a{
+            margin-right:15px;
+            text-decoration: none;
+            font-weight: bold;;
+        }
+
+        /*Gallery layout*/
+        .gallery grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30 px;
+        }
+
+        /*Images hidden by default */
+        .grid-img {
+            width: 300px;
+            height: auto;
+            opacity: 0;
+            transition: opacity 0.6s ease;
+        }
+
+        /*Each image fades in when hovered individually*/
+        .grid-img:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
 <body>
 
-<!-- Navigation -->
-<header>
-    <nav>
-        <ul>
-            <li><a class="active" href="Home.html">Home</a></li>
-            <li><a href="Timeline.html">Timeline</a></li>
-            <li><a href="voices.html">Voices</a></li>
-            <li><a href="Reflection.html">Reflection</a></li>
-            <li><a href="faith-conflict.html">Faith & Conflict</a></li>
-        </ul>
-    </nav>
-</header>
-
-
-<!-- MAIN TWO-COLUMN LAYOUT (same structure as screenshot) -->
-<section class="container">
-
-    <!-- LEFT COLUMN (big art + mini gallery below) -->
-    <div class="left-column">
-
-        <!-- Large main image -->
-        <img src="images/Mosque.jpeg" alt="Mosque" class="main-home-image">
-
-        <!-- Section title under the big image -->
-        <h2 class="left-title">Faith & Fire</h2>
-        <p class="left-description">
-            A digital journey through Pakistan’s history of war, faith, resilience, and culture.
-            Scroll to explore images, sounds and stories that reveal emotional perspectives
-            beyond ordinary news.
-        </p>
-
-        <!-- MINI-GALLERY (your 3 images) -->
-        <div class="mini-gallery">
-            <img src="images/Mosque.jpeg" alt="Mosque">
-            <img src="images/Pakistan Aesthetic.jpeg" alt="Aesthetic Pakistan">
-            <img src="images/aesthetic 2.jpeg" alt="Aesthetic 2">
-        </div>
-
-    </div>
-
-
-
-    <!-- RIGHT COLUMN (welcome + featured projects) -->
-    <div class="right-column">
-
-        <!-- Welcome section -->
-        <h1 class="welcome-title">Welcome to Faith & Fire</h1>
-        <p>
-            This immersive web experience combines photography, spoken audio,
-            historical fragments and web-art to reveal how conflict and spirituality
-            shape everyday life in Pakistan.
-        </p>
-
-        <p>
-            Explore timelines, listen to personal stories, and discover cultural
-            expressions that reflect resilience, identity and faith.
-        </p>
-
-        <!-- Featured projects section -->
-        <h2 class="featured-title">Featured Stories</h2>
-
-        <!-- FEATURE 1 -->
-        <div class="featured-project">
-            <img src="images/Pakistan Aesthetic.jpeg" alt="Gallery image">
-            <div>
-                <h3>Voices From Conflict</h3>
-                <p>
-                    Personal stories and spoken reflections from individuals who lived
-                    through moments of war, tension and hope.
-                </p>
-            </div>
-        </div>
-
-        <!-- FEATURE 2 -->
-        <div class="featured-project">
-            <img src="images/aesthetic 2.jpeg" alt="Gallery image">
-            <div>
-                <h3>Faith & Rituals</h3>
-                <p>
-                    A blend of photography and sound exploring spiritual practices,
-                    prayer and cultural tradition during difficult times.
-                </p>
-            </div>
-        </div>
-
-    </div>
-
+<section class="galley-grid">
+    <img src="images/Mosque.jpeg" alt="Mosque" class="grid-img">
+    <img src="images/Pakistan aesthetic.jpeg" alt="Pakistan aesthetic" class="grid-img">
+    <img src="images/aesthetic 2.jpeg" alt="aesthetic 2" class="grid-img">
 </section>
 
+<!--Main content-->
+
+    <!--Right intro text-->
+    <div class="right-text">
+        <h1 class="title"> Faith & Fire</h1>
+        <h3 class="subtitle">A Digital Journey Through War And Religion In Pakistan</h3>
+
+        <p>
+        A cinematic web experience designed to explore
+        <span class="hidden-text-link">how</span>
+        how religion and war shaped life in Pakistan. Scroll through stories, listen to voices,
+         and navigate a digital journey of survival, spirituality and history.
+        </p>
+
+        <p>
+        This project brings together photographs, spoken audio, archived news,
+        and interactive web-art to reveal personal and emotional perspectives
+        beyond headlines, through immersive storytelling.
+        </p>
+        </div>
+
+
+</section>
 </body>
 </html>
 
